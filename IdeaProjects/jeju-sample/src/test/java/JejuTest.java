@@ -9,9 +9,8 @@ import static org.hamcrest.CoreMatchers.*;
 public class JejuTest {
     @Test
     public void testAdd() throws Exception {
-        Assert.assertThat(1 + 1, is(2));
+        Assert.assertThat(1 + 3, is(4));
         System.out.println("helloworld");
 
     }
-
 }
