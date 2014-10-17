@@ -8,6 +8,6 @@ import static org.hamcrest.CoreMatchers.*;
 public class JejuTest2 {
     @Test
     public void midTest() throws Exception {
-        Assert.assertThat(4 * 3 , is(12));
+        Assert.assertThat(4 * 4 , is(16));
     }
 }
