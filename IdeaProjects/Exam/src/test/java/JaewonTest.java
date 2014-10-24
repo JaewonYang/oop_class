@@ -8,13 +8,13 @@ public class JaewonTest {
     public static void main(String[] args){
         Calculator c= new Calculator();
 
-        double result = c.sum(10, 50);
-        assertEquals(60, result, 0);
+        double result = c.multiple(10, 50);
+        assertEquals(500, result, 0);
     }
 }
 
  class Calculator{
-    double sum(double num1, double num2){
-       return num1+num2;
+    double multiple(double num1, double num2){
+       return num1*num2;
     }
  }
