@@ -10,11 +10,7 @@ public class JaewonTest {
 
         double result = c.sum(10, 50);
         assertEquals(60, result, 0);
-
-
     }
-
-
 }
 
  class Calculator{
